@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/login-register.css" rel="stylesheet">
+    <link href="/css/login-register.css" rel="stylesheet">
 
 </head>
 
@@ -32,13 +32,13 @@
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
-                        <div class="row align-items-center justify-content-center"">
+                        <div class="row align-items-center justify-content-center">
                             <div class="col-lg-10">
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" id="loginForm">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
@@ -55,21 +55,21 @@
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <a href="my-hub.html" class="btn btn-primary btn-user btn-block">
+                                        <button class="btn btn-primary btn-user btn-block" type="submit">
                                             Login
-                                        </a>
+                                        </button>
                                         <hr>
-                                        <a href="my-hub.html" class="btn btn-google btn-user btn-block">
+                                        <a href="#" class="btn btn-google btn-user btn-block login-with-google">
                                             <i class="fab fa-google fa-fw"></i> Login with Google
                                         </a>
-                                        <a href="my-hub.html" class="btn btn-facebook btn-user btn-block">
+                                        <a href="#" class="btn btn-facebook btn-user btn-block login-with-facebook">
                                             <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                                         </a>
                                     </form>
                                     <hr>
-                                    <div class="text-center">
+                                    <!--<div class="text-center">
                                         <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                    </div>
+                                    </div>-->
                                     <div class="text-center">
                                         <a class="small" href="register.html">Create an Account!</a>
                                     </div>
@@ -94,6 +94,32 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            var email = document.getElementById("exampleInputEmail").value;
+            var password = document.getElementById("exampleInputPassword").value;
+
+            var message = "Email: " + email + "\n" +
+                          "Password: " + password;
+            alert(message);
+
+            window.location.href = "index.html";
+        });
+
+        document.querySelector(".login-with-google").addEventListener("click", function(event) {
+            event.preventDefault();
+            alert("Login with Google feature is coming soon!");
+            window.location.href = "index.html";
+        });
+
+        document.querySelector(".login-with-facebook").addEventListener("click", function(event) {
+            event.preventDefault();
+            window.location.href = "index.html";
+        });
+    </script>
 
 </body>
 
