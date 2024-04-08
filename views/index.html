@@ -11,7 +11,7 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="/css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -29,9 +29,9 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Account</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="my-hub.html">My Hub</a></li>
-                                    <li><a class="dropdown-item" href="">Settings</a></li>
-                                    <li><a class="dropdown-item" href="">Logout</a></li>
+                                    <li><a class="dropdown-item" href="/content/Call of Duty/Hub/hub.html">My Hub</a></li>
+                                    <!--<li><a class="dropdown-item" href="">Settings</a></li>
+                                    <li><a class="dropdown-item" href="">Logout</a></li>-->
                                 </ul>
                             </li>
                         </ul>
@@ -99,70 +99,16 @@
                             </div>
                         </div>
                         <div class="row gx-5">
-                            <div class="col-lg-4 mb-5">
-                                <div class="card h-100 shadow border-0">
-                                    <img class="card-img-top" src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwiii/MWIII-S2R-ANNOUNCEMENT-TOUT.jpg" height = 100% alt="..." />
-                                    <div class="card-body p-4">
-                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">New Update</div>
-                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">MW3</div>
-                                        <a class="text-decoration-none link-dark stretched-link" href="changelog-post.html"><h5 class="card-title mb-3">Call of Duty: Warzone Season 2</h5></a>
-                                        <p class="card-text mb-0">Drop into Das Haus, a remastered and chaotic map, and rain destruction in the Juggermosh game mode featuring all Juggernauts, all the time.</p>
-                                    </div>
-                                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                        <div class="d-flex align-items-end justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                                <div class="small">
-                                                    <div class="fw-bold">Call of Duty</div>
-                                                    <div class="text-muted">March 6, 2024 &middot; 6 min read</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-lg-4 mb-5" id="blogPost1" data-blog-id="1">
+                                <!-- Content for first blog post -->
                             </div>
-                            <div class="col-lg-4 mb-5">
-                                <div class="card h-100 shadow border-0">
-                                    <img class="card-img-top" src="https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/65e0d5d41a1beac596a12aaa_March%20Changelog%20Headers-p-1600.png" height = 100% alt="..." />
-                                    <div class="card-body p-4">
-                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Product and Features</div>
-                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Discord Update: March 5, 2024</h5></a>
-                                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                        <div class="d-flex align-items-end justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                                <div class="small">
-                                                    <div class="fw-bold">Discord</div>
-                                                    <div class="text-muted">March 5, 2024 &middot; 4 min read</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-lg-4 mb-5" id="blogPost2" data-blog-id="2">
+                                <!-- Content for second blog post -->
                             </div>
-                            <div class="col-lg-4 mb-5">
-                                <div class="card h-100 shadow border-0">
-                                    <img class="card-img-top" src="https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.pro-linux.de%2Fimages%2FNB3%2Fimgdb%2Fo_manjaro-logo.jpg&sp=1710197174T4a1d7896f74f29f38df5eac478b5f2d08f5ca650a5c5bd30c46bac0bcfc8161c" alt="..." />
-                                    <div class="card-body p-4">
-                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Stable Update</div>
-                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">2024-03-06 - Kernels, Systemd, KDE Gear, Qt, GNOME, Firefox, Thunderbird</h5></a>
-                                        <p class="card-text mb-0">Regular kernel updates as well as updates to notable packages.</p>
-                                    </div>
-                                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                        <div class="d-flex align-items-end justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                                <div class="small">
-                                                    <div class="fw-bold">Manjaro Linux</div>
-                                                    <div class="text-muted">March 2, 2024 &middot; 2 min read</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-lg-4 mb-5" id="blogPost3" data-blog-id="3">
+                                <!-- Content for third blog post -->
                             </div>
+                            
                         </div>
                         <!-- Call to action-->
                         <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
@@ -230,58 +176,34 @@
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form id="contactForm">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" name="email" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" name="phone" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Phone number</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" name="message" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button class="btn btn-primary btn-lg enabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
@@ -293,13 +215,6 @@
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; ChangeLog Hub 2024</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
-                    </div>
                 </div>
             </div>
         </footer>
@@ -307,5 +222,55 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            fetch('/json/blog_view.json')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(blogPost => {
+                        const blogPostElement = document.getElementById(`blogPost${blogPost.blog_ID}`);
+                        if (blogPostElement) {
+                            blogPostElement.innerHTML = `
+                                <div class="card h-100 shadow border-0">
+                                    <img class="card-img-top" src="${blogPost.thumbnail}" height="100%" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">${blogPost.tags}</div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="${blogPost.blogLink}">
+                                            <h5 class="card-title mb-3">${blogPost.title}</h5>
+                                        </a>
+                                        <p class="card-text mb-0">${blogPost.description}</p>
+                                    </div>
+                                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                        <div class="d-flex align-items-end justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <img class="rounded-circle me-3" src="${blogPost.authorImg}" alt="..." />
+                                                <div class="small">
+                                                    <div class="fw-bold">${blogPost.authorTitle}</div>
+                                                    <div class="text-muted">${blogPost.authorDate}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching blog posts:', error));
+        </script>
+        <script>
+            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                event.preventDefault(); 
+    
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var phone = document.getElementById("phone").value;
+                var message = document.getElementById("message").value;
+    
+                var formData = "Name: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nMessage: " + message;
+                alert("Form Data:\n\n" + formData);
+
+                document.getElementById("contactForm").reset();
+            });
+        </script>
     </body>
 </html>

@@ -1,0 +1,35 @@
+[
+    {
+        "thumbnail": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwiii/MWIII-S2R-ANNOUNCEMENT-TOUT.jpg",
+        "tags": "New Update",
+        "title": "Call of Duty: Warzone Season 2",
+        "description": "Drop into Das Haus, a remastered and chaotic map, and rain destruction in the Juggermosh game mode featuring all Juggernauts, all the time.",
+        "authorImg": "https://dummyimage.com/40x40/ced4da/6c757d",
+        "authorTitle": "Call of Duty",
+        "authorDate": "March 6, 2024 | 2 min read",
+        "blog_ID": 1,
+        "blogLink": "/content/Call of Duty/Changelogs/call-of-duty-warzone-season-2.html"
+    },
+    {
+        "thumbnail": "https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/65e0d5d41a1beac596a12aaa_March%20Changelog%20Headers-p-1600.png",
+        "tags": "Product and Features",
+        "title": "Discord Update: March 5, 2024",
+        "description": "This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "authorImg": "https://dummyimage.com/40x40/ced4da/6c757d",
+        "authorTitle": "Discord",
+        "authorDate": "March 5, 2024 | 6 min read",
+        "blog_ID": 2,
+        "blogLink": ""
+    },
+    {
+        "thumbnail": "https://i0.wp.com/www.omglinux.com/wp-content/uploads/2022/06/manjaro-plain.jpg?resize=1250%2C656&ssl=1",
+        "tags": "Stable Update",
+        "title": "2024-03-06 - Kernels, Systemd, KDE Gear, Qt, GNOME, Firefox, Thunderbird",
+        "description": "Regular kernel updates as well as updates to notable packages.",
+        "authorImg": "https://dummyimage.com/40x40/ced4da/6c757d",
+        "authorTitle": "Manjaro Linux",
+        "authorDate": "March 2, 2024 | 3 min read",
+        "blog_ID": 3,
+        "blogLink": ""
+    }
+]
